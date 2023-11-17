@@ -1,0 +1,80 @@
+/* ImageSlider.css */
+
+.slider-container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden;
+  width: 70%;
+  max-width: 100%; /* Set a maximum width if needed */
+  margin: 0 auto;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%; /* Make the image fill its container */
+  height: auto;
+  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .slider-container {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+    width: 95%;
+    max-width: 100%; /* Set a maximum width if needed */
+    margin: 0 auto;
+  }
+
+  .image {
+    border-radius: 10px; /* Adjust border radius for smaller screens */
+
+  }
+
+  .left-arrow,
+  .right-arrow {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+}
