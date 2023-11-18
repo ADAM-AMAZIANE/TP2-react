@@ -37,13 +37,6 @@
   z-index: 1;
 }
 
-.left-arrow {
-  left: 10px;
-}
-
-.right-arrow {
-  right: 10px;
-}
 
 
 
@@ -78,3 +71,34 @@
     font-size: 1.5rem; /* Adjust the font size as needed */
   }
 }
+
+
+
+
+
+/* position des fléche */
+
+.slider-container {
+  position: relative;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 10px; /* Adjust the left positioning as needed */
+}
+
+.right-arrow {
+  right: 10px; /* Adjust the right positioning as needed */
+}
+
+
+
+
