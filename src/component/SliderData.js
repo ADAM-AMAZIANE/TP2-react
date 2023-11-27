@@ -1,7 +1,7 @@
 export const SliderData = [
     {
         image:
-        'https://static.anime21.blog.br/2022/10/01-11.jpg'
+        'https://staticg.sportskeeda.com/editor/2022/10/fec4a-16650798464186-1920.jpg'
       },
       {
         image:
@@ -9,7 +9,7 @@ export const SliderData = [
       },
       {
         image:
-          'https://staticg.sportskeeda.com/editor/2022/10/fec4a-16650798464186-1920.jpg'
+          'https://static.anime21.blog.br/2022/10/01-11.jpg'
       },
       {
         image:
